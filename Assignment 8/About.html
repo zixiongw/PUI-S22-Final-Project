@@ -22,7 +22,7 @@
 
         <!-- Navigation -->
         <header>
-            <span id="name">Jason Wei</span>
+            <a id="name" href="./index.html">Jason Wei</a>
             <div class="navBar">
                     <a class="navBarItem" href="./index.html#worksTitle">Works</a>
                     <a class="navBarItem" href="./About.html">About</a>
@@ -30,9 +30,26 @@
             </div>
         </header>
         
-        
-        <div id="worksTitle">
-            <h1>This page is currently under construction :)</h1>
+        <!-- Main body -->        
+
+        <div class="overview" id="intro">
+            <h1>Hi, I'm Jason.</h1>
+            <div class="homepageText">
+                A designer new to the field of human-computer interaction, 
+                I strive for creating virtual spaces and products that empower 
+                users to make more ethical decisions.
+            </div>
+            <br>
+            <div class="homepageText">
+                My projects concentrate on transforming existing mindsets, 
+                sparking curiosities, and evoking new actions. They range from 
+                modifications of current platforms to educational games 
+                exploring new knowledge domains.
+            </div>
+        </div>
+
+        <div class="overview">
+            <img id="profileImage" src="./images/Profile Pic.png" >
         </div>
 
         <!-- Footer -->
@@ -47,7 +64,7 @@
                     <a class="footerItem" href = "mailto: zixiongw@andrew.cmu.edu">
                         <img src="./images/carbon_email.png">
                     </a>
-                    <a class="footerItem"><img src="./images/codicon_comment.png" onclick="openForm()"></a>
+                    <a class="footerItem"><img src="./images/codicon_comment.png" nclick="openForm()"></a>
             </div>
         </footer>
 
@@ -62,6 +79,7 @@
               <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
             </form>
           </div>
+
 
     </body>
 </html> 

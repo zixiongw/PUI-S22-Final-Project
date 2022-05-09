@@ -3,199 +3,116 @@
 
     <head>
         <meta charset="UTF-8">
+        <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Bahnschrift&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+        <!-- Stylesheet -->
         <link href="./css/main.css" rel="stylesheet" />
+
+        <!-- JQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./script.js"></script>
         <title>Document</title>
     </head>
 
     <body>
+
+        <!-- Navigation -->
         <header>
-            <a href=home.html id="name">Jason Wei</a>
+            <span id="name">Jason Wei</span>
             <div class="navBar">
-                    <a class="navBarItem">Works</a>
-                    <a class="navBarItem">About Me</a>
-                    <a class="navBarItem">Resume</a>
+                    <a class="navBarItem" href="#worksTitle">Works</a>
+                    <a class="navBarItem" href="./About.html">About</a>
+                    <a class="navBarItem" href="./zixiong_wei 0217.pdf" target="_blank">Resume</a>
             </div>
         </header>
-        <!-- <div class="v17_161">
-            <div class="v21_102"></div>
-            <div class="v21_96"><div class="name"></div></div>
-            <div class="v17_162">
-
+        
+        <!-- Main Body -->
+        <div class="background">
+        <div class="overview" id="intro">
+            <h1>Hi, I'm Jason.</h1>
+            <div class="homepageText">
+                As an interdisciplinary designer, I create 
+                meaningful experiences and services.
             </div>
-                <span class="v17_163">Jason Wei</span>
-            <div class="v17_164">
-
-            </div><div class="v20_14"></div>
-            <span class="v20_15">VisualizeIt!</span>
-            <span class="v21_28">Introduction</span>
-            <span class="v21_37">Problem</span>
-            <span class="v21_38">Solution</span>
-            <span class="v21_29">The Team</span>
-            <span class="v21_31">My Role</span>
-            <span class="v21_19">
-                Informing social media users of bias types 
-                through an extended reporting capability.
-            </span>
-            <div class="name"></div>
-            <div class="v21_21"></div>
-            <span class="v21_27">
-                For every day social media users to participate in collective 
-                auditing of Artificial Intelligence/Machine Learning Systems, 
-                they need to have some knowledge of what constitutes algorithmic
-                 bias. This project aims to estimate the current state of users' 
-                 knowledge, and thereby determine what the gaps are that can be 
-                 filled by educational enhancements to social media platforms. 
-            </span>
-            <span class="v21_32">
-                As a UX Researcher, I wrote interview protocols, recruited 
-                participants, conducted interviews and user studies, synthesized 
-                research findings, created empathy maps and affinity diagrams, 
-                etc.
-            </span>
-            <span class="v21_36">
-                In recent years it has become clear that the social media 
-                platforms that we rely on so much are plagued by algorithmic 
-                bias. Crowdsourced efforts to identify sources of bias have 
-                proved effective in spurring companies to make changes to their 
-                products, but the issue remains of getting users involved in 
-                this process. For users to be involved, they must also be 
-                educated on issues of algorithmic bias. 
-            </span>
-            <span class="v21_30">Joseph Han
-                Alana Mittleman
-                Zixiong Wei
-                Sihan Wu
-            </span>
-            <span class="v21_25">
-                How might we educate users on algorithmic bias so that they can 
-                identify examples and participate in collective auditing?
-            </span>
-            <span class="v21_23">01. Problem Statement</span>
-            <span class="v21_33">02. Executive Summary</span>
-            <div class="v21_39"></div>
-            <span class="v21_40">03. Research Methods</span>
-            <div class="v21_79">
-                <span class="v21_41">a. Empathy Map</span>
-                <span class="v21_67">
-                    We launched the research by creating an empathy map for our 
-                    target user group - young social media users who are fed 
-                    with content selected by algorithms and wish to avoid 
-                    harmful content while enjoying a smooth experience through 
-                    the feed.
-                </span>
-            </div><div class="v21_80">
-                <span class="v21_63">b. Generative Think-Aloud</span>
-                <span class="v21_69">
-                    We launched the research by creating an empathy map for our 
-                    target user group - young social media users who are fed 
-                    with content selected by algorithms and wish to avoid 
-                    harmful content while enjoying a smooth experience through 
-                    the feed.
-                </span>
-            </div><div class="v21_81">
-                <span class="v21_64">
-                    c. Contextual Inquiry & Affinity Diagramming
-                </span>
-                <span class="v21_70">We launched the research by creating an 
-                    empathy map for our target user group - young social media 
-                    users who are fed with content selected by algorithms and 
-                    wish to avoid harmful content while enjoying a smooth 
-                    experience through the feed.
-                </span>
+            <br>
+            <div class="homepageText">
+                Currently a junior studying Human-Computer
+                Interaction and Architecture at Carnegie Mellon University.
             </div>
-            <span class="v21_65">
-                d. Speed Dating
-            </span>
-            <span class="v21_71">
-                We launched the research by creating an empathy map for our 
-                target user group - young social media users who are fed with 
-                content selected by algorithms and wish to avoid harmful content
-                 while enjoying a smooth experience through the feed.
-                </span>
-            <div class="v21_130"><div class="v21_89"><div class="name"></div><div class="v21_90"></div></div>
-            <span class="v21_86">
-                “I want to be educated about bias but I don’t want it to 
-                interrupt my normal app experience.”
-            </span></div>
-            <div class="v21_129"><div class="v21_93"><div class="name"></div>
-            <div class="v21_95"></div></div>
-            <span class="v21_125">
-                “I was unaware that the way the algorithm 
-                crops an image can be an example of bias.”
-            </span></div>
-            <div class="v21_127"><div class="v21_98"></div>
-            <span class="v21_124">
-                “I would like more guidance on how I should report posts so that
-                 I know how my choice and action would make a change.”
-                </span></div>
-            <div class="v21_128"><div class="v21_99"><div class="name"></div><div class="v21_101"></div></div>
-            <span class="v21_126">
-                “I usually ignore ads, but I would report it if it’s 
-                uninteresting and it keeps appearing.”
-            </span></div><div class="v21_78"><div class="v21_74"></div><div class="v21_77"></div><div class="v21_75"></div>
-            <div class="v21_76"></div></div><span class="v21_85">04. Key Evidence</span>
-            <span class="v21_103">05. Insights</span>
-            <span class="v21_104">06. Solution</span>
-            <span class="v21_106">
-                Based on findings from speed dating session, our proposed 
-                solution was an extended reporting capability with information 
-                that informs users of different kinds of bias on social media. 
-                It supports users who want to report a post but are not 
-                completely sure what kind of bias it might contain. 
-
-                This feature provides a handy set of references for users to 
-                better learn about algorithmic bias without interrupting their 
-                daily use of social media platforms. 
-
-                When integrated, the feature will empower users to confidently 
-                detect algorithmic bias and encourage them to participate in 
-                collective auditing.
-            </span>
-            <div class="v21_118">
-                <span class="v21_116">1</span>
-                <span class="v21_107">
-                    Users validated the necessity of being educated on biases, 
-                     long as the normal experience is undisrupted.
-                </span>
-            </div>
-            <div class="v21_121">
-                <span class="v21_117">2</span>
-                <span class="v21_108">
-                    Users have expressed interests in extra guidance during the
-                     process of reporting biased posts.
-                </span>
-            </div>
-            <div class="v21_123">
-                <span class="v21_119">3</span>
-                <span class="v21_109">
-                    Users were uncertain on various types of algorithmic bias 
-                    when presented to them, suggesting a need for further 
-                    education.
-                </span>
-            </div>
-            <div class="v21_122">
-                <span class="v21_120">4</span>
-                <span class="v21_110">
-                    Users often come across content that makes wrong assumptions
-                     about their demographic and interests and cause them to 
-                     feel uncomfortable.
-                </span>
-            </div>
-    <div class="v21_131"></div>
-    <div class="v21_132"></div></div> -->
-
-    <footer>
-        <div class="bottomNav">
-                <a class="navBarItem">Works</a>
-                <a class="navBarItem">About Me</a>
-                <a class="navBarItem">Resume</a>
         </div>
-    </footer>
+
+        <div class="overview">
+            <img id="slideDeck" src="./images/1.jpg">
+        </div>
+
+        <div id="worksTitle">
+            <h1>Works</h1>
+        </div>
+
+        <div id="works">
+            <div class="workCover">
+                <a href="./Work 1.html">
+                    <img class="coverImage" alt="clubhouse_redesign" src="./images/Cover1.png">
+                    <div class="coverText">Clubhouse Redesign</div>
+                </a>
+            </div>
+
+            <div class="workCover">
+                <a href="./Work 2.html">
+                    <img class="coverImage" alt="energy_utopia" src="./images/Cover2.png">
+                    <div class="coverText">Energy Utopia</div>
+                </a>
+            </div>
+
+            <!-- Buffer prevents animation from disrupting the layout -->
+            <div class="buffer"></div>
+
+            <div class="workCover">
+                <a href="./Work 3.html">
+                    <img class="coverImage" alt="visualizeit!" src="./images/Cover3.png">
+                    <div class="coverText">VisualizeIt!</div>
+                </a>
+            </div>
+
+            <div class="workCover">
+                <a href="./Work 4.html">
+                    <img class="coverImage" alt="great_falls_shelter" src="./images/Cover4.png">
+                    <div class="coverText">Great Falls National Park Shelter</div>
+                </a>
+            </div>
+
+            <div class="buffer"></div>
+        <!-- Footer -->
+        <footer>
+            <div class="bottomNav1">
+                <div class="footerItem">Copyright © 2022 ZIXIONG WEI</div>
+            </div>
+            <div class="bottomNav2">
+                    <a class="footerItem" href="https://www.linkedin.com/in/zixiong-wei/" target="_blank">
+                        <img src="./images/akar-icons_linkedin-box-fill.png">
+                    </a>
+                    <a class="footerItem" href = "mailto: zixiongw@andrew.cmu.edu">
+                        <img src="./images/carbon_email.png">
+                    </a>
+                    <a class="footerItem"><img src="./images/codicon_comment.png" onclick="openForm()"></a>
+            </div>
+        </footer>
+
+        <!-- Pop-up form -->
+        <div class="textbox" id="leaveAComment">
+            <form action="/action_page.php" class="formContainer">
+              <h1>Leave a comment</h1>
+          
+              <input type="text" placeholder="Share your comments, thoughts or questions here..." name="comment" required>
+          
+              <button type="submit" class="btn">Submit</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+          </div>
 
     </body>
 </html> 

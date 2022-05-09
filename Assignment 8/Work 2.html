@@ -22,13 +22,15 @@
 
         <!-- Navigation -->
         <header>
-            <a id="name" href="./home.html">Jason Wei</a>
+            <span id="name">Jason Wei</span>
             <div class="navBar">
-                <a class="navBarItem" href="./home.html#worksTitle">Works</a>
-                <a class="navBarItem" href="./zixiong_wei 0217.pdf" target="_blank">Resume</a>
+                    <a class="navBarItem" href="./index.html#worksTitle">Works</a>
+                    <a class="navBarItem" href="./About.html">About</a>
+                    <a class="navBarItem" href="./zixiong_wei 0217.pdf" target="_blank">Resume</a>
             </div>
         </header>
         
+        <!-- Main body -->
         <div class="workBody">
             <img src="./images/Work 2 Export.png">
         </div>
@@ -49,9 +51,21 @@
                     <a class="footerItem" href = "mailto: zixiongw@andrew.cmu.edu">
                         <img src="./images/carbon_email.png">
                     </a>
-                    <a class="footerItem"><img src="./images/codicon_comment.png"></a>
+                    <a class="footerItem"><img src="./images/codicon_comment.png" onclick="openForm()"></a>
             </div>
         </footer>
+
+        <!-- Pop-up form -->
+        <div class="textbox" id="leaveAComment">
+            <form action="/action_page.php" class="formContainer">
+              <h1>Leave a comment</h1>
+          
+              <input type="text" placeholder="Share your comments, thoughts or questions here..." name="comment" required>
+          
+              <button type="submit" class="btn">Submit</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+          </div>
 
     </body>
 </html> 
